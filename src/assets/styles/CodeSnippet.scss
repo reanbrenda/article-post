@@ -1,0 +1,118 @@
+/* styles.css (or your preferred style file) */
+.code-snippet {
+  position: relative;
+  background-color: #282c34;
+  padding: 8px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 15px;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.language {
+  font-size: 12px;
+  font-weight: bold;
+  color: #70a5fd;
+}
+
+.btn-copy {
+  background-color: #70a5fd;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-copy:hover {
+  background-color: #6692e3;
+}
+
+pre {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.code-snippet code {
+  font-family: "Consolas", "Menlo", monospace;
+  color: #abb2bf;
+}
+
+/* Apply syntax highlighting styles for different languages */
+.hljs {
+  color: #abb2bf;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: #c678dd;
+}
+
+.hljs-function,
+.hljs-attr,
+.hljs-title,
+.hljs-type,
+.hljs-tag,
+.hljs-name,
+.hljs-quote,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e5c07b;
+}
+
+.hljs-subst,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-meta,
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #d19a66;
+}
+
+.hljs-string,
+.hljs-attr,
+.hljs-char,
+.hljs-meta-string,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-template-string {
+  color: #98c379;
+}
+
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-number {
+  color: #d19a66;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-doctype,
+.hljs-meta-comment,
+.hljs-pi,
+.hljs-doctype-tag,
+.hljs-comment .hljs-doctype-tag,
+.hljs-punctuation,
+.hljs-deletion,
+.hljs-addition,
+.hljs-shebang {
+  color: #5c6370;
+}

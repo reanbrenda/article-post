@@ -1,0 +1,38 @@
+.skeleton {
+    background-color: rgb(199, 199, 199);
+    border-radius: 0.25rem;
+}
+
+.skeleton.title {
+    height: 1.25rem;
+    margin-bottom: 0.7rem;
+}
+
+.skeleton.text {
+    height: 0.75rem;
+}
+
+.skeleton.width-100 {
+    width: 100%;
+}
+
+.skeleton.width-50 {
+    width: 38%;
+}
+
+.skeleton.profile-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* animation */
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
